@@ -1,26 +1,13 @@
-[2016-05-09 10:25:57,728] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 10:25:57,730] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 10:25:57,822] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
-[2016-05-09 10:25:59,853] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 10:25:59,853] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 10:25:59,923] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
-[2016-05-09 10:25:59,978] {models.py:1001} INFO - 
+[2016-05-09 12:04:19,718] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:04:19,718] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:04:20,100] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 12:04:26,326] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:04:26,326] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:04:26,555] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 12:04:26,772] {models.py:1001} INFO - 
 --------------------------------------------------------------------------------
 Attempt 1 out of 2
 --------------------------------------------------------------------------------
 
-[2016-05-09 10:25:59,993] {models.py:1041} INFO - Executing <Task(PythonOperator): extract_sentenca_task> on 2016-04-24 00:00:00
-[2016-05-09 10:26:00,005] {python_operator.py:66} INFO - Done. Returned value was: 2016-04-24
-[2016-05-09 11:03:42,586] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 11:03:42,587] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 11:03:42,998] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
-[2016-05-09 11:03:47,875] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 11:03:47,876] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 11:03:48,211] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
-[2016-05-09 11:03:48,316] {models.py:1001} INFO - 
---------------------------------------------------------------------------------
-Attempt 1 out of 2
---------------------------------------------------------------------------------
-
-[2016-05-09 11:03:48,341] {models.py:1041} INFO - Executing <Task(PythonOperator): extract_sentenca_task> on 2016-04-24 00:00:00
-[2016-05-09 11:03:48,451] {python_operator.py:66} INFO - Done. Returned value was: 0
+[2016-05-09 12:04:26,785] {models.py:1041} INFO - Executing <Task(PythonOperator): extract_sentenca_task> on 2016-04-24 00:00:00
+[2016-05-09 12:04:26,956] {python_operator.py:66} INFO - Done. Returned value was: 0

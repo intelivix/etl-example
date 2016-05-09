@@ -1,13 +1,13 @@
-[2016-05-09 10:25:34,932] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
-[2016-05-09 10:25:34,933] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
-[2016-05-09 10:25:34,934] {models.py:296} INFO - Loaded DAG <DAG: extract_judges>
-[2016-05-09 10:25:41,750] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
-[2016-05-09 10:25:41,750] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
-[2016-05-09 10:25:41,752] {models.py:296} INFO - Loaded DAG <DAG: extract_judges>
-[2016-05-09 10:25:41,945] {models.py:1001} INFO - 
+[2016-05-09 11:59:26,578] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
+[2016-05-09 11:59:26,578] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
+[2016-05-09 11:59:26,581] {models.py:296} INFO - Loaded DAG <DAG: extract_judges>
+[2016-05-09 11:59:28,919] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
+[2016-05-09 11:59:28,920] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
+[2016-05-09 11:59:28,921] {models.py:296} INFO - Loaded DAG <DAG: extract_judges>
+[2016-05-09 11:59:28,975] {models.py:1001} INFO - 
 --------------------------------------------------------------------------------
 Attempt 1 out of 2
 --------------------------------------------------------------------------------
 
-[2016-05-09 10:25:42,117] {models.py:1041} INFO - Executing <Task(PythonOperator): check_name_task> on 2016-05-06 00:00:00
-[2016-05-09 10:25:42,148] {python_operator.py:66} INFO - Done. Returned value was: None
+[2016-05-09 11:59:28,995] {models.py:1041} INFO - Executing <Task(PythonOperator): check_name_task> on 2016-05-06 00:00:00
+[2016-05-09 11:59:29,006] {python_operator.py:66} INFO - Done. Returned value was: None

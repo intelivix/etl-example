@@ -1,26 +1,13 @@
-[2016-05-09 10:24:42,349] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 10:24:42,349] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 10:24:42,877] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
-[2016-05-09 10:24:53,363] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 10:24:53,363] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 10:24:53,843] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
-[2016-05-09 10:24:54,310] {models.py:1001} INFO - 
+[2016-05-09 12:02:47,738] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:02:47,738] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:02:48,173] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 12:02:57,552] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:02:57,553] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:02:57,642] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 12:02:58,063] {models.py:1001} INFO - 
 --------------------------------------------------------------------------------
 Attempt 1 out of 2
 --------------------------------------------------------------------------------
 
-[2016-05-09 10:24:54,330] {models.py:1041} INFO - Executing <Task(PythonOperator): load_new_data> on 2016-04-17 00:00:00
-[2016-05-09 10:24:54,341] {python_operator.py:66} INFO - Done. Returned value was: None
-[2016-05-09 11:02:13,227] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 11:02:13,228] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 11:02:14,002] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
-[2016-05-09 11:02:25,150] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 11:02:25,150] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
-[2016-05-09 11:02:25,353] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
-[2016-05-09 11:02:25,666] {models.py:1001} INFO - 
---------------------------------------------------------------------------------
-Attempt 1 out of 2
---------------------------------------------------------------------------------
-
-[2016-05-09 11:02:25,684] {models.py:1041} INFO - Executing <Task(PythonOperator): load_new_data> on 2016-04-17 00:00:00
-[2016-05-09 11:02:25,694] {python_operator.py:66} INFO - Done. Returned value was: None
+[2016-05-09 12:02:58,080] {models.py:1041} INFO - Executing <Task(PythonOperator): load_new_data> on 2016-04-17 00:00:00
+[2016-05-09 12:02:58,089] {python_operator.py:66} INFO - Done. Returned value was: None

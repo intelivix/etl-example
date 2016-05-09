@@ -1,0 +1,13 @@
+[2016-05-09 12:03:11,471] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:03:11,471] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:03:11,962] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 12:03:24,238] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:03:24,239] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:03:24,727] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 12:03:25,159] {models.py:1001} INFO - 
+--------------------------------------------------------------------------------
+Attempt 1 out of 2
+--------------------------------------------------------------------------------
+
+[2016-05-09 12:03:25,180] {models.py:1041} INFO - Executing <Task(PythonOperator): extract_juntada_task> on 2016-04-18 00:00:00
+[2016-05-09 12:03:26,740] {python_operator.py:66} INFO - Done. Returned value was: 27

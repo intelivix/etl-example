@@ -1,0 +1,13 @@
+[2016-05-09 12:04:29,050] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:04:29,051] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:04:29,369] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 12:04:35,591] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:04:35,592] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progress.py
+[2016-05-09 12:04:35,762] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 12:04:36,090] {models.py:1001} INFO - 
+--------------------------------------------------------------------------------
+Attempt 1 out of 2
+--------------------------------------------------------------------------------
+
+[2016-05-09 12:04:36,110] {models.py:1041} INFO - Executing <Task(PythonOperator): extract_improcedente_task> on 2016-04-03 00:00:00
+[2016-05-09 12:04:36,461] {python_operator.py:66} INFO - Done. Returned value was: 0
