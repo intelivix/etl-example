@@ -1,0 +1,26 @@
+[2016-05-09 10:24:43,964] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 10:24:43,964] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 10:24:44,453] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 10:24:55,113] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 10:24:55,114] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 10:24:55,532] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 10:24:55,704] {models.py:1001} INFO - 
+--------------------------------------------------------------------------------
+Attempt 1 out of 2
+--------------------------------------------------------------------------------
+
+[2016-05-09 10:24:55,718] {models.py:1041} INFO - Executing <Task(PythonOperator): extract_sentenca_task> on 2016-04-06 00:00:00
+[2016-05-09 10:24:55,729] {python_operator.py:66} INFO - Done. Returned value was: None
+[2016-05-09 11:03:42,231] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 11:03:42,241] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 11:03:42,768] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 11:03:47,879] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 11:03:47,879] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 11:03:48,208] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 11:03:48,292] {models.py:1001} INFO - 
+--------------------------------------------------------------------------------
+Attempt 1 out of 2
+--------------------------------------------------------------------------------
+
+[2016-05-09 11:03:48,318] {models.py:1041} INFO - Executing <Task(PythonOperator): extract_sentenca_task> on 2016-04-06 00:00:00
+[2016-05-09 11:03:48,534] {python_operator.py:66} INFO - Done. Returned value was: 9

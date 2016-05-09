@@ -1,16 +1,7 @@
+# coding=utf-8
 from airflow.operators.python_operator import PythonOperator
 from airflow.models import DAG
 from datetime import datetime, timedelta
-from mongoengine import *
-
-connect('legys')
-
-
-# Exemplo de mapeamento de banco, mas daria para usar de outra maneira.
-class ProcessedUpdate(Document):
-    andamento_id = IntField(required=True)
-    text = StringField()
-    judge = StringField()
 
 
 default_args = {
@@ -28,6 +19,7 @@ dag = DAG('extract_judges', default_args=default_args, schedule_interval="@daily
 
 
 def check_updates_with_judges():
+    # TODO: Copiar textos com o termo Juiz de Direito para uma tabela de processamento
     return None  # Copiar os dados do postgres para o mongodb fazendo filtro para texto com 'JUIZ'
 
 
@@ -38,10 +30,12 @@ check_updates_with_judges_task = PythonOperator(
 
 
 def extract_name():
+    # TODO: Criar função para extrair o nome do juiz do texto
     return None  # http://blog.yhat.com/posts/named-entities-in-law-and-order-using-nlp.html
 
 
 def check_name():
+    # TODO: Verificar o nome extraido
     return None  # Validar com uma base de nomes de JUIZES (portal da transparencia)
 
 

@@ -1,0 +1,26 @@
+[2016-05-09 10:25:40,030] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 10:25:40,031] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 10:25:40,196] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 10:25:44,957] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 10:25:44,957] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 10:25:45,065] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 10:25:45,187] {models.py:1001} INFO - 
+--------------------------------------------------------------------------------
+Attempt 1 out of 2
+--------------------------------------------------------------------------------
+
+[2016-05-09 10:25:45,219] {models.py:1041} INFO - Executing <Task(PythonOperator): load_new_data> on 2016-04-22 00:00:00
+[2016-05-09 10:25:45,228] {python_operator.py:66} INFO - Done. Returned value was: None
+[2016-05-09 11:02:06,508] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 11:02:06,508] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 11:02:07,121] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 11:02:19,524] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 11:02:19,524] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/update_progresses.py
+[2016-05-09 11:02:19,891] {models.py:296} INFO - Loaded DAG <DAG: update_progress>
+[2016-05-09 11:02:20,305] {models.py:1001} INFO - 
+--------------------------------------------------------------------------------
+Attempt 1 out of 2
+--------------------------------------------------------------------------------
+
+[2016-05-09 11:02:20,474] {models.py:1041} INFO - Executing <Task(PythonOperator): load_new_data> on 2016-04-22 00:00:00
+[2016-05-09 11:02:20,484] {python_operator.py:66} INFO - Done. Returned value was: None

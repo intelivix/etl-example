@@ -1,0 +1,13 @@
+[2016-05-09 10:24:44,329] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
+[2016-05-09 10:24:44,330] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
+[2016-05-09 10:24:44,332] {models.py:296} INFO - Loaded DAG <DAG: extract_judges>
+[2016-05-09 10:24:55,396] {models.py:126} INFO - Filling up the DagBag from /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
+[2016-05-09 10:24:55,397] {models.py:204} INFO - Importing /Users/bruno/Development/Intelivix/etl-example/dags/extract_judges.py
+[2016-05-09 10:24:55,419] {models.py:296} INFO - Loaded DAG <DAG: extract_judges>
+[2016-05-09 10:24:55,580] {models.py:1001} INFO - 
+--------------------------------------------------------------------------------
+Attempt 1 out of 2
+--------------------------------------------------------------------------------
+
+[2016-05-09 10:24:55,609] {models.py:1041} INFO - Executing <Task(PythonOperator): extract_name_task> on 2016-05-08 00:00:00
+[2016-05-09 10:24:55,715] {python_operator.py:66} INFO - Done. Returned value was: None
